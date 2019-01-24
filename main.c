@@ -3,6 +3,7 @@
 #include "stuff.h"
 
 int main(){
-  struct node list = *init();
+  struct node *list = init();
+  start(list);
   return 0;
 }
